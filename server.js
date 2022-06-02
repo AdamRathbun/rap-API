@@ -8,12 +8,12 @@ app.use(cors())
 
 let rap={
     'eminem':{
-        line: "I'm a menace, a dentist, an oral hygienist. Open your mouth for about four or five minutes.",
-        name: 'Eminem'
+        'line': "I'm a menace, a dentist, an oral hygienist. Open your mouth for about four or five minutes.",
+        'name': 'Eminem'
     },
     'dre': {
-        line: "I dip through in that Six-Trey, like, 'Sick em, Dre!'",
-        name: 'Dr. Dre'
+        'line': "I dip through in that Six-Trey, like, 'Sick em, Dre!'",
+        'name': 'Dr. Dre'
     },
     /*
     'migos': {
