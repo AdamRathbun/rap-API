@@ -1,11 +1,10 @@
-// CRUD rap battle main js
 document.querySelector('button').addEventListener('click', apiRequest)
 
 async function apiRequest(){
     const rapper=document.querySelector('input').value
     try{
         const response= await fetch(`https://rap-monsta.herokuapp.com/api/${rapper}`)
-        data= await response.json()
+        const data= await response.json()
 
         console.log(data)
         document.querySelector('h2').innerText=data.line
@@ -14,3 +13,4 @@ async function apiRequest(){
         console.log(error)
     }
 }
+
