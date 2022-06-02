@@ -80,6 +80,9 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html')
   })
 
+app.get('/main.js', (req, res) => {
+    res.sendFile(__dirname + '/main.js')
+  })
 
 app.get('/api/:name', (req, res)=>{
     const rapper = req.params.name.toLowerCase()
