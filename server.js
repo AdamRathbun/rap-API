@@ -76,7 +76,7 @@ let rap={
 }
 
 
-app.get('/', (req, res) => {
+app.get('/', (req, res) => {   //note how this looks like an event listeners.
     res.sendFile(__dirname + '/index.html')
   })
 
