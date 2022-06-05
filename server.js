@@ -68,6 +68,10 @@ let rap={
         'line': "Who am I? Someone that's afraid to let go.",
         'name': "XXXTENTACION"
     },
+    'mac miller': {
+        'line': "Tell them they can take that bullshit elsewhere (yeah). Self-care, I'm treatin' me right, yeah",
+        'name': "Mac Miller"
+    },
     
     'empty': {
         'line': "I'm a menace, a dentist, an oral hygienist. Open your mouth for about four or five minutes.",
